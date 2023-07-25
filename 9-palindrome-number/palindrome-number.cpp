@@ -12,8 +12,7 @@ public:
         while(n !=0 ){
             last = n % 10;
             rev = rev * 10 + last;
-            if(rev > INT_MAX)
-                return false;
+            
             n = n / 10;
         } 
 
